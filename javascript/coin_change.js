@@ -14,3 +14,8 @@ var coinChange = function(coins, amount) {
     }
     return newArr[amount] > amount ? -1 : newArr[amount]
 };
+
+
+
+// Time Complexity: O(amount * n * log(n)), amount is target amount and n is the # of coins
+
