@@ -9,3 +9,10 @@ var minCostClimbingStairs = function(cost) {
 
     return Math.min(step[0], step[1]);
 };
+
+
+// In summary, the time complexity of the minCostClimbingStairs function is O(n), and the space complexity is also O(n), where n is the length of the cost array.
+
+
+
+
