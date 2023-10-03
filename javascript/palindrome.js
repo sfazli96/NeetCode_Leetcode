@@ -13,3 +13,6 @@ var firstPalindrome = function(words) {
     }
     return ""
 };
+
+
+// In summary, the time complexity of the firstPalindrome function is O(n * m), and the space complexity is O(n), where n is the number of words in the input array, and m is the average length of the words.
