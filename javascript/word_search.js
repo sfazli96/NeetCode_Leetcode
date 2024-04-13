@@ -1,4 +1,4 @@
-var exist = function(board, word) {
+let exist = function(board, word) {
     // using depth first search algorithm
     const dfs = (row, col, index) => {
         if (index === word.length) {
