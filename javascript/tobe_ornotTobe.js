@@ -2,7 +2,7 @@
  * @param {string} val
  * @return {Object}
  */
-var expect = function(val) {
+let expect = function(val) {
     const originalValue = val
 	return {
 		toBe: function(newVal) {
