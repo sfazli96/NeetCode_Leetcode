@@ -1,4 +1,4 @@
-var isUgly = function(n) {
+let isUgly = function(n) {
     if (n <= 0) {
         return false
     }
