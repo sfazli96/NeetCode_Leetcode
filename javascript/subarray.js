@@ -1,4 +1,4 @@
-var minSubArrayLen = function(target, nums) {
+let minSubArrayLen = function(target, nums) {
     let minLength = Infinity;
     let sum = 0;
     let left = 0;
