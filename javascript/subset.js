@@ -1,4 +1,4 @@
-var subsets = function(nums) {
+let subsets = function(nums) {
     if (nums.length === 0) {
         return [[]]
     }
