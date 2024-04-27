@@ -2,8 +2,8 @@
  * @param {number[][]} matrix
  * @return {number[]}
  */
-var spiralOrder = function(matrix) {
-    let res = []
+let spiralOrder = function(matrix) {
+  let res = []
   let top = 0
   let right = matrix[0].length-1
   let bottom = matrix.length-1
