@@ -44,7 +44,7 @@ Follow up: Your algorithm's time complexity must be better than O(n log n), wher
 //     }
 // };
 
-var topKFrequent = function(nums, k) {
+let topKFrequent = function(nums, k) {
     const frequencyCount = nums.reduce((count, num) => {
         count[num] = (count[num] || 0) + 1;
         return count;
