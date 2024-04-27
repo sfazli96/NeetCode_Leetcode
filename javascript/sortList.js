@@ -1,4 +1,4 @@
-var sortList = function(head) {
+let sortList = function(head) {
     if (!head) {
       return head;
     }
