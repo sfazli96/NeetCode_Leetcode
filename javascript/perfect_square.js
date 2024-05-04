@@ -2,7 +2,7 @@
  * @param {number} num
  * @return {boolean}
  */
-var isPerfectSquare = function(num) {
+let isPerfectSquare = function(num) {
     if (num < 1) return false; // Special case: 0 and negative numbers are not perfect squares
     if (num === 1) return true; // Special case: 1 is a perfect square
 
