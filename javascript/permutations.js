@@ -26,7 +26,7 @@ Output: [[1]]
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function(nums) {
+let permute = function(nums) {
     if (!nums.length) { // base case
       return [nums];
     }
