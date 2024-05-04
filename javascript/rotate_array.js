@@ -1,4 +1,4 @@
-var rotate = function(nums, k) {
+let rotate = function(nums, k) {
     const n = nums.length;
     k = k % n;
 
