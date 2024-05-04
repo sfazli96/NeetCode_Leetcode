@@ -9,7 +9,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function(head) {
+let reverseList = function(head) {
     let current = head
     let prev = null; // Initialize prev to null since it will be the last node
     let next;
