@@ -1,4 +1,4 @@
-var sortEvenOdd = function(nums) {
+let sortEvenOdd = function(nums) {
     // Separate elements into two arrays based on index parity
     const evenIndices = [];
     const oddIndices = [];
