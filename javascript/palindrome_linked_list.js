@@ -24,7 +24,7 @@ palindrome
  * @param {ListNode} head
  * @return {boolean}
  */
-var isPalindrome = function(head) {
+let isPalindrome = function(head) {
     // Helper function to reverse a linked list
     function reverseLinkedList(node) {
         let prev = null;
