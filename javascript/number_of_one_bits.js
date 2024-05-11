@@ -34,7 +34,7 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
  * @param {number} n - a positive integer
  * @return {number}
  */
-var hammingWeight = function(n) {
+let hammingWeight = function(n) {
     let count = 0
 
     while (n !== 0) {
