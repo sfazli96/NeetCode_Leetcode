@@ -1,4 +1,4 @@
-var missingNumber = function(nums) {
+let missingNumber = function(nums) {
     let n = nums.length;
     let temp = new Array(n + 1).fill(0);
     for (let i = 0; i < n; i++) {
