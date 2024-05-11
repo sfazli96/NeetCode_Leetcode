@@ -1,4 +1,4 @@
-var partition = function(head, x) {
+let partition = function(head, x) {
     let current = head;
     let smallX = new ListNode(); // Create a new node here
     let bigX = new ListNode();   // Create a new node here
