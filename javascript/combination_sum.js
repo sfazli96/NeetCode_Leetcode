@@ -1,4 +1,4 @@
-var combinationSum = function(candidates, target) {
+let combinationSum = function(candidates, target) {
     let newArr = [] // empty array
 
     if (candidates.length < 1) { // if the length of the array is less than 0, just return empty array
