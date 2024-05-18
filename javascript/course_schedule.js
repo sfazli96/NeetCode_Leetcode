@@ -29,7 +29,7 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
  * @param {number[][]} prerequisites
  * @return {boolean}
  */
-var canFinish = function(numCourses, prerequisites) {
+let canFinish = function(numCourses, prerequisites) {
     // Create an adjacency list representation of the graph
     const graph = new Array(numCourses).fill(0).map(() => []);
     // Array to keep track of the number of prerequisites for each course
