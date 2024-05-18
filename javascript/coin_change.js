@@ -1,4 +1,4 @@
-var coinChange = function(coins, amount) {
+let coinChange = function(coins, amount) {
     coins.sort((a, b) => a - b) // sort the coins array
 
     // dynamic programming array
