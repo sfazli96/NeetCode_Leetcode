@@ -1,4 +1,4 @@
-var merge = function(intervals) {
+let merge = function(intervals) {
     // checks if the input intervals has 1 or more zero elements and if it does, we dont need to merge.
     if (intervals.length <= 1) {
         return intervals;
