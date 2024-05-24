@@ -1,4 +1,4 @@
-var hasCycle = function(head) {
+let hasCycle = function(head) {
     let current = head;
     let faster = head;
 
