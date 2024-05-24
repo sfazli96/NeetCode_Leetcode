@@ -32,7 +32,7 @@ Output: "alGalooG"
  * @param {string} command
  * @return {string}
  */
-var interpret = function(command) {
+let interpret = function(command) {
     let str = ''
     for (let i = 0; i < command.length; i++) {
         let c = command[i]
