@@ -29,7 +29,7 @@ Output: [["a"]]
  * @param {string[]} strs
  * @return {string[][]}
  */
-var groupAnagrams = function(strs) {
+let groupAnagrams = function(strs) {
     let result = []
 
     // creates a map to store the groups
