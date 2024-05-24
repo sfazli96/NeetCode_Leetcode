@@ -1,4 +1,4 @@
-var minCostClimbingStairs = function(cost) {
+let minCostClimbingStairs = function(cost) {
     let step = new Array(cost.length)
     step[cost.length - 1] = cost[cost.length - 1];
     step[cost.length - 2] = cost[cost.length - 2];
