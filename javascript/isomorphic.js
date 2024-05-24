@@ -24,7 +24,7 @@ Output: true
  * @param {string} t
  * @return {boolean}
  */
-var isIsomorphic = function(s, t) {
+let isIsomorphic = function(s, t) {
     if (s.length !== t.length) return false;
 
     const sToTMap = new Map();
