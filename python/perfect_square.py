@@ -24,5 +24,5 @@ class Solution:
 
 # Test cases
 solution = Solution()
-print(solution.isPerfectSquare(16))   # Output: True
-print(solution.isPerfectSquare(14))   # Output: False
+print(solution.isPerfectSquare(16))  
+print(solution.isPerfectSquare(14))
