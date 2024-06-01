@@ -19,4 +19,4 @@ class Solution:
 # Test cases
 solution = Solution()
 print(solution.largestDivisibleSubset([1, 2, 3]))  # Output: [1, 2] or [1, 3]
-print(solution.largestDivisibleSubset([1, 2, 4, 8]))  # Output: [1, 2, 4, 8]
+print(solution.largestDivisibleSubset([1, 2, 4, 8]))  
