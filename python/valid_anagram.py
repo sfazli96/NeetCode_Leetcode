@@ -20,5 +20,5 @@ def isAnagram(s, t):
     return s_count == t_count
 
 # Test cases
-print(isAnagram("anagram", "nagaram"))  # True
-print(isAnagram("rat", "car"))          # False
+print(isAnagram("anagram", "nagaram"))  
+print(isAnagram("rat", "car"))         
