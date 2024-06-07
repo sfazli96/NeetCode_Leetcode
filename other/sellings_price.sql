@@ -1,5 +1,4 @@
 1251. Average Selling Price
-# Write your MySQL query statement below
 SELECT
     us.product_id,
     ROUND(SUM(p.price * us.units) / SUM(us.units), 2) AS average_price
