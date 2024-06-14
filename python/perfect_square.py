@@ -14,7 +14,7 @@ class Solution:
             # Check if the middle value squared equals num
             mid_squared = mid * mid
             if mid_squared == num:
-                return True   # Found perfect square
+                return True   
             elif mid_squared < num:
                 left = mid + 1   # If mid^2 < num, increase left
             else:
