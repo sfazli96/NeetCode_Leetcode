@@ -4,7 +4,7 @@ class Solution:
             return []
 
         nums.sort()
-        dp = [[num] for num in nums]  # Initialize dp with each number forming a subset of size 1
+        dp = [[num] for num in nums]  
         max_subset = []
 
         for i in range(len(nums)):
