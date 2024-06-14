@@ -19,5 +19,3 @@ class MinStack:
     def getMin(self) -> int:
         return self.min_stack[-1] # retrieves min element in stack
 
-
-## Overall, all the operations (push, pop, top, getMin) have constant time complexity O(1) and constant space complexity O(1). The space used by the two stacks (stack and min_stack) is directly related to the number of elements pushed onto the stack, so it does not depend on the size of the input.
