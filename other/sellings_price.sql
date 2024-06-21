@@ -1,4 +1,3 @@
-1251. Average Selling Price
 SELECT
     us.product_id,
     ROUND(SUM(p.price * us.units) / SUM(us.units), 2) AS average_price
