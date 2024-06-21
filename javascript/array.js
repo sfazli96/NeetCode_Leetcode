@@ -1,8 +1,3 @@
-/**
- * @param {number[]} arr
- * @param {Function} fn
- * @return {number[]}
- */
 let filter = function(arr, fn) {
     var filteredArr = [];
     for (var i = 0; i < arr.length; i++) {
