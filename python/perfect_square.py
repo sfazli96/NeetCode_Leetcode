@@ -21,8 +21,3 @@ class Solution:
                 right = mid - 1   # If mid^2 > num, decrease right
 
         return False   # If we reach here, num is not a perfect square
-
-# Test cases
-solution = Solution()
-print(solution.isPerfectSquare(16))  
-print(solution.isPerfectSquare(14))
