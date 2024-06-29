@@ -7,4 +7,4 @@ class Solution:
             if num in freq: # if the num is in the dictionary that appears twice, return true
                 return True
             freq[num] = 1
-        return False ## else False
+        return False 
