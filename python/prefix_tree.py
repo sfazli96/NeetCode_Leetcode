@@ -1,8 +1,6 @@
 class Trie:
-
     def __init__(self):
         self._trie = {} # intializes the trie object (empty)
-
     def insert(self, word: str) -> None:
         if isinstance(word, str): # first check if its a string
             current_node = self._trie
@@ -13,7 +11,6 @@ class Trie:
             current_node['#'] = None
         else:
             return None
-
     def search(self, word: str) -> bool:
         if isinstance(word, str): # first check if its a string
             current_node = self._trie
@@ -24,7 +21,6 @@ class Trie:
             return '#' in current_node # we still check if the specifical character is present in the dictionary.
         else:
             return False
-
     def startsWith(self, prefix: str) -> bool:
         if isinstance(prefix, str):
             current_node = self._trie
