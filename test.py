@@ -19,3 +19,5 @@ a = {
 
 print(a)
 print(len(a))
+character = a["movie"]  
+print(character)
